@@ -22,30 +22,28 @@ A simple e-commerce product app built with React Native. This app allows users t
 Install dependencies:
 
 ```bash
-Copy code
 npm install
 or
 ```
 
 ```bash
-Copy code
+
 yarn install
 Run the app:
 ```
 For iOS:
 
 ```bash
-Copy code
+
 npx react-native run-ios
 For Android:
 ```
 ```bash
-Copy code
 npx react-native run-android
 Start the Metro bundler:
 ```
 ```bash
-Copy code
+
 npx react-native start
 ```
 Usage
