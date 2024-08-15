@@ -1,6 +1,6 @@
 # React Native Product App
 
-A simple e-commerce product app built with React Native. This app allows users to browse through products, view details, and add items to their shopping cart.
+A simple e-commerce product app built with React Native and Expo. This app allows users to browse through products, view details, and add items to their shopping cart.
 
 ## Features
 
@@ -10,7 +10,6 @@ A simple e-commerce product app built with React Native. This app allows users t
 - **Modal**: A modal view for product details with add-to-cart and close functionality.
 - **Redux Integration**: State management for cart functionality using Redux.
 
-
 ## Installation
 
 1. **Clone the repository:**
@@ -18,39 +17,30 @@ A simple e-commerce product app built with React Native. This app allows users t
    ```bash
    git clone https://github.com/your-username/react-native-product-app.git
    cd react-native-product-app
-   ```
 Install dependencies:
-
-```bash
-npm install
-or
 ```
-
 ```bash
-
-yarn install
+expo install react-redux @react-native-async-storage/async-storage react-native-vector-icons
 Run the app:
 ```
 For iOS:
 
 ```bash
-
-npx react-native run-ios
+expo start --ios
 For Android:
-```
-```bash
-npx react-native run-android
-Start the Metro bundler:
-```
-```bash
 
-npx react-native start
+expo start --android
+Start the Expo bundler:
+
+
+expo start
 ```
 Usage
 Viewing Products: Open the app to see a list of products. Click on a product to view its details.
 Adding to Cart: Inside the product detail view, click the "Add to Cart" button to add the product to your cart.
 Closing Modal: Click the "Close" button inside the product detail modal to go back to the product list.
 Dependencies
+Expo: The framework for building native apps using React and managed workflow.
 React Native: The framework for building native apps using React.
 Redux: Used for managing the state of the cart.
 React Native Modal: For displaying product details in a modal.
@@ -64,16 +54,5 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-For any inquiries or support, please contact your-email@example.com.
-
-javascript
-Copy code
-
-You can save this content as a `README.md` file in your project directory. Make sure to update the placeholders (like the GitHub repository link and contact email) with your actual information.
-
-
-
 
 
