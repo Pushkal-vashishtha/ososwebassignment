@@ -10,9 +10,6 @@ A simple e-commerce product app built with React Native. This app allows users t
 - **Modal**: A modal view for product details with add-to-cart and close functionality.
 - **Redux Integration**: State management for cart functionality using Redux.
 
-## Screenshots
-
-(Include screenshots here)
 
 ## Installation
 
@@ -21,33 +18,36 @@ A simple e-commerce product app built with React Native. This app allows users t
    ```bash
    git clone https://github.com/your-username/react-native-product-app.git
    cd react-native-product-app
+   ```
 Install dependencies:
 
-bash
+```bash
 Copy code
 npm install
 or
+```
 
-bash
+```bash
 Copy code
 yarn install
 Run the app:
-
+```
 For iOS:
 
-bash
+```bash
 Copy code
 npx react-native run-ios
 For Android:
-
-bash
+```
+```bash
 Copy code
 npx react-native run-android
 Start the Metro bundler:
-
-bash
+```
+```bash
 Copy code
 npx react-native start
+```
 Usage
 Viewing Products: Open the app to see a list of products. Click on a product to view its details.
 Adding to Cart: Inside the product detail view, click the "Add to Cart" button to add the product to your cart.
